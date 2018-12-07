@@ -1,0 +1,341 @@
+/*
+font-family: 'Averia Gruesa Libre', cursive;
+font-family: 'Sonsie One', cursive;
+font-family: 'Lalezar', cursive;
+font-family: 'Bowlby One SC', cursive;
+*/
+
+/*background*/
+html
+{
+    background-image:url(../Pictures/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black
+}
+
+/*Typografy8*/
+
+h1, h2, h3{
+    font-family: 'Lalezar', cursive;
+    margin: 0%;
+}
+p{
+    margin-top: 0%
+}
+html{
+    font-family: 'Averia Gruesa Libre', cursive;
+    color: black
+    
+}
+nav{
+    font-family: 'Coda', cursive;
+}
+.logo-icon{
+    font-family: 'Bowlby One SC', cursive;
+}
+.logo-text{
+    font-weight: bold
+}
+main .home_leftside h1{
+    font-size: 44px
+}
+main .contacts
+{
+    font-size: 44px
+}
+
+.travel-content h1, .family-content h1, .paintball-content h1
+{
+    font-size: 35px
+}
+.travel-text, .family-text, .paintball-text
+{
+    padding-right: 40%;
+    font-size: 20px
+}
+
+
+
+/*Naviation*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding-top: 30px
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-right: 100px;
+    color: black
+}
+nav ul li a {
+    margin-left: 32px;
+    text-decoration: none;
+    color: rgb(248, 158, 41);
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 100px;
+    color: black
+}
+
+.logo-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 5px solid #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    font-size: 24px;
+
+    transition: all .5s ease;
+}
+
+.logo-icon:hover {
+    background: #000;
+    color: #fff;
+}
+
+.logo-text {
+    text-transform: uppercase;
+}
+
+
+
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: black
+}
+footer ul li a i{
+    padding: 32px;
+    font-size: 40px;
+    color: black:
+}
+footer ul li{
+    color: black
+}
+
+/*home page content*/
+
+main{
+    display: flex;
+    justify-content: space-around
+}
+main .home_leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+main .home_leftside h1{
+    padding-left: 150px;
+    padding-right: 10px;
+    padding-top: 80px;
+    font-size: 50px
+}
+main .skills{
+    padding-left: 120px;
+}
+main ul li{
+    font-size: 30px;
+    list-style: none
+}
+
+main .photo img{
+    width: 40rem;
+    border-radius: 15px;
+    margin-top: 120px;
+    margin-right: 100px;
+    margin-left: 100px;
+    box-shadow: 0 0 1em 0.5em rgb(248, 158, 41);
+    }
+
+
+/*contacts page content*/
+
+main{
+    
+    justify-content: center
+}
+main .contacts-text{
+    
+    margin: 0%
+}
+main .contact-logo{
+    padding-left: 50px
+}
+
+.contacts, .contact-logo, .contacts-text{
+    padding-top: 120px;
+    padding-bottom: 150px
+}
+
+/*about me page content*/
+
+.travel, .family, .paintball
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%
+    
+
+}
+.travel{
+    padding-top: 100px
+}
+
+.travel-logo img, .family-logo img, .paintball-logo img
+{
+max-width: 400px;
+max-height: 300px;
+box-shadow: 0 0 1em 0.5em rgb(248, 158, 41);
+border-radius: 5px
+}
+.travel-content, .family-content, .paintball-content
+{
+    margin: 2%
+}
+
+/*my studies page*/
+
+.dci, .links {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+   
+}
+
+.dci-text{
+    padding-top: 60px;
+    font-size: 20px
+}
+.links
+{
+flex-direction: column;
+margin-left: 210px
+}
+
+.links ul li{
+    list-style: none;
+    margin: 2px
+}
+
+.links ul li a
+{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    transition: all .2s ease;
+       
+}
+
+.links ul li a:hover
+{
+    padding: 3px
+
+}
+
+
+.dci img{
+max-width: 600px;
+box-shadow: 0 0 1em 0.5em rgb(248, 158, 41);
+border-radius: 7px
+}
+
+/*CV page*/
+
+.cvself
+{
+    display: flex;
+    justify-content: center
+}
+
+.cv-leftside, .cv-rightside{
+    margin: 5%;
+    
+}
+.cv-leftside{
+    margin-left: 60px
+}
+.cv-rightside
+{
+    padding-right: 200px
+
+}
+.scale
+{
+    display: flex;
+    
+    
+}
+.scale div
+{
+    background-color: rgb(12, 34, 77);
+    border: solid rgb(12, 34, 77);
+   width: 10px;
+   height: 10px;
+    margin: 2px;
+    transition: all .1s ease;
+    
+}
+
+.box10:hover, .box9:hover, .box6:hover, .box4:hover
+{
+    box-shadow: 0 0 1em 0.5em rgb(248, 158, 41);
+    background-color: rgb(44, 143, 236);
+    border: solid rgb(44, 143, 236);
+}
+
+.scale h4
+{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.summary, .workexp, .education h1
+{
+    text-align: center  
+}
+.bbs, .bpr1, .bpr2, .bch, .armo, .md, .education{
+    display: flex;
+    justify-content: space-between
+}
+
+.bbs-text, .bpr1-text, .bpr2-text, .armo-text, .md-text, .bch-text
+{
+    text-align: left
+}
+.time
+{
+    text-align: left;
+    max-width: 100pc;
+    justify-content: left;
+    padding-right: 60px
+}
